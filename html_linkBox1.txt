@@ -1,0 +1,139 @@
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+
+<div class="linkBox1">
+  <!-- linkBox1.1 -->
+  <button id="Al" onclick="window.open('https://www.aliexpress.com/')">Al </button>
+  <button id="Nn" onclick="window.open('https://news.naver.com')">Nn </button>
+  <button id="Ns" onclick="window.open('https://finance.naver.com')">Ns </button>
+  <button id="So" onclick="window.open('http://www.soen.kr/')">So </button>
+  <button id="Sc" onclick="window.open('https://opentutorials.org/course/1')">Sc </button>
+  <button id="N" onclick="window.open('https://www.naver.com')">N </button>
+  <!-- linkBox1.2 -->
+  <button id="E" onclick="window.open('https://')">E </button>
+  <button id="Y" onclick="window.open('https://www.youtube.com')">Y </button>
+  <button id="Sl" onclick="window.open('https://')">Sl </button>
+  <button id="S" onclick="window.open('https://')">S </button>
+  <button id="We" onclick="window.open('https://')">We </button>
+  <button id="Cod" onclick="window.open('https://codepen.io')">Cod </button>
+  <!-- linkBox1.3 -->
+  <button id="Aau" onclick="window.open('https://')">Aau </button>
+  <button id="D" onclick="window.open('https://')">D </button>
+  <button id="T40" onclick="window.open('https://')">T40 </button>
+  <button id="T30" onclick="window.open('https://')">T30 </button>
+  <button id="T20" onclick="window.open('https://')">T20 </button>
+  <button id="T10" onclick="window.open('https://')">T10 </button>
+  <!--   linkBox1.4 -->
+  <button id="Ame" onclick="window.open('https://')">Ame </button>
+  <button id="Hb" onclick="window.open('https://')">Hb </button>
+  <button id="Hn" onclick="window.open('https://')">Hn </button>
+  <button id="Ha" onclick="window.open('https://')">Ha </button>
+  <button id="Hs" onclick="window.open('https://')">Hs </button>
+  <button id="O1" onclick="window.open('https://')">O1 </button>
+  <!--   linkBox1.5 -->
+  <button id="BS" onclick="window.open('https://')">BS </button>
+  <button id="G" onclick="window.open('https://')">G </button>
+  <button id="Ir" onclick="window.open('https://')">Ir </button>
+  <button id="Ii" onclick="window.open('https://')">Ii </button>
+  <button id="P" onclick="window.open('https://')">P </button>
+  <button id="O4" onclick="window.open('https://')">O4 </button>
+  <!-- linkBox1.6 -->
+  <button id="Cs" onclick="window.open('https://')">Cs </button>
+  <button id="Wa" onclick="window.open('https://')">Wa </button>
+  <button id="Ht" onclick="window.open('https://')">Ht </button>
+  <button id="Dhn" onclick="window.open('https://')">Dhn </button>
+  <button id="Dwa" onclick="window.open('https://')">Dwa </button>
+  <button id="A" onclick="window.open('https://')">A </button>
+</div>
+
+
+
+
+
+
+
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+div.linkBox1{
+  margin-top:0px;
+  margin-left:0px;
+  width:427px;
+  border:1px solid #333;
+  background-color: #ccc;
+  padding:5px;
+  display: grid;
+  grid-template-columns: repeat(6,65px);
+  grid-auto-rows: 65px;
+  grid-gap: 5px;
+}
+div.linkBox1 button{
+  font-size:30px;
+  font-weight: bold;
+  text-align: center;
+  border:2px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+}
+div.linkBox1 button:hover{
+  box-shadow: 1px 1px 2px #333;
+  font-size: 20px;
+}
+div.linkBox1 button:active{
+  font-size: 40px;
+}
+/* linkBox1.1 color*/
+#Al{background:#e8891f;}#Al:hover{background:#facc2e;}
+#Nn{background:#3baa33;}#Nn:hover{background:#58fa82;}
+#Ns{background:#3baa33;}#Ns:hover{background:#58fa82;}
+#So{background:#a4a4a4;}#So:hover{background:#f2f2f2;}
+#Sc{background:#a4a4a4;}#Sc:hover{background:#f2f2f2;}
+#N{background:#3baa33;}#N:hover{background:#58fa82;}
+/* linkBox1.2 color*/
+#E{background:#d787dc;}#E:hover{background:#f6cef5;}
+#Y{background:#ff0000;}#Y:hover{background:#f7819f;}
+#Sl{background:#571759;}#Sl:hover{background:#9f81f7;}
+#S{background:#1e6187;}#S:hover{background:#2e64fe;}
+#We{background:#e8891f;}#We:hover{background:#facc2e;}
+#Cod{background:#4c4e52;}#Cod:hover{background:#bdbdbd;}
+/* linkBox1.3 color*/
+#Aau{background:#e8891f;}#Aau:hover{background:#facc2e;}
+#D{background:#608df9;}#D:hover{background:#819ff7;}
+#T40{background:#3f82cc;}#T40:hover{background:#a9d05f;}
+#T30{background:#3f82cc;}#T30:hover{background:#a9d05f;}
+#T20{background:#3f82cc;}#T20:hover{background:#a9d05f;}
+#T10{background:#3f82cc;}#T10:hover{background:#a9d05f;}
+/* linkBox1.4 color*/
+#Ame{background:#e8891f;}#Ame:hover{background:#facc2e;}
+#Hb{background:#1e6187;}#Hb:hover{background:#5858fa;}
+#Hn{background:#22ac38;}#Hn:hover{background:#82fa58;}
+#Ha{background:#fa3e3e;}#Ha:hover{background:#e60012;}
+#Hs{background:#e60012;}#Hs:hover{background:#f7afb5;}
+#O1{background:#95b2ed;}#O1:hover{background:#81daf5;}
+/* linkBox1.5 color*/
+#BS{background:#ff0000;}#BS:hover{background:#fa5882;}
+#G{background:#0ed400;}#G:hover{background:#82fa58;}
+#Ir{background:#d09e59;}#Ir:hover{background:#f5da81;}
+#Ii{background:#d09e59;}#Ii:hover{background:#f5da81;}
+#P{background:#99cbe6;}#P:hover{background:#72b4f7;}
+#O4{background:#95b2ed;}#O4:hover{background:#81daf5;}
+/* linkBox1.6 color*/
+#Cs{background:#007cc2;}#Cs:hover{background:#a9d0f5;}
+#Wa{background:#51627e;}#Wa:hover{background:#2e64fe;}
+#Ht{background:#0ed400;}#Ht:hover{background:#82fa58;}
+#Dhn{background:#51627e;}#Dhn:hover{background:#2e64fe;}
+#Dwa{background:#51627e;}#Dwa:hover{background:#2e64fe;}
+#A{background:#0545b1;}#A:hover{background:#0000ff;}
+
