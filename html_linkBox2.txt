@@ -1,0 +1,186 @@
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+
+
+<div class="linkBox2">
+  <!-- linkBox2.1 -->
+  <input type="button" id="MAN" value="MAN" onclick="window.open('https://')">
+  <input type="button" id="b" value="b" onclick="window.open('https://')">
+  <input type="button" id="" value="2.1.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.1.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.1.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.1.6" onclick="window.open('https://')">
+  <!-- linkBox2.2 -->
+  <input type="button" id="" value="2.2.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.2.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.2.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.2.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.2.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.2.6" onclick="window.open('https://')">
+  <!-- linkBox2.3 -->
+  <input type="button" id="" value="2.3.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.3.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.3.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.3.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.3.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.3.6" onclick="window.open('https://')">
+  <!-- linkBox2.4 -->
+  <input type="button" id="" value="2.4.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.4.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.4.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.4.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.4.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.4.6" onclick="window.open('https://')">
+  <!-- linkBox2.5 -->
+  <input type="button" id="" value="2.5.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.5.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.5.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.5.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.5.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.5.6" onclick="window.open('https://')">
+  <!-- linkBox2.6 -->
+  <input type="button" id="" value="2.6.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.6.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.6.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.6.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.6.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.6.6" onclick="window.open('https://')">
+  <!-- linkBox2.7 -->
+  <input type="button" id="" value="2.7.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.7.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.7.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.7.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.7.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.7.6" onclick="window.open('https://')">
+  <!-- linkBox2.8 -->
+  <input type="button" id="" value="2.8.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.8.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.8.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.8.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.8.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.8.6" onclick="window.open('https://')">
+  <!-- linkBox2.9 -->
+  <input type="button" id="" value="2.9.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.9.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.9.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.9.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.9.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.9.6" onclick="window.open('https://')">
+  <!-- linkBox2.10 -->
+  <input type="button" id="" value="2.10.1" onclick="window.open('https://')">
+  <input type="button" id="" value="2.10.2" onclick="window.open('https://')">
+  <input type="button" id="" value="2.10.3" onclick="window.open('https://')">
+  <input type="button" id="" value="2.10.4" onclick="window.open('https://')">
+  <input type="button" id="" value="2.10.5" onclick="window.open('https://')">
+  <input type="button" id="" value="2.10.6" onclick="window.open('https://')">
+</div>
+
+
+
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+
+/* prepered nothing on the background 
+div.linkBox2{
+  width:427px;
+    border:1px solid #333;
+    background:#ccc;
+    padding:5px;
+} */
+div.linkBox2{
+  margin-top: 0px;
+  margin-left: 0px;
+  display: grid;
+  grid-template-columns: repeat(6,65px);
+  grid-auto-rows: 23px;
+  grid-gap: 5px;
+}
+div.linkBox2 input{
+  border: 2px solid #333;
+  cursor: pointer;
+  border-radius: 10px;
+  font-siz: 15px;
+  font-weight: bold;
+  background: #a4a4a4;
+}
+div.linkBox2 input:hover{box-shadow: 1px 1px 2px #333;font-size: 10px;}
+div.linkBox2 input:active{font-size: 20px;}
+
+/* linkBox2.1 color*/
+#MAN{background:#3f82cc}#MAN:hover{background:#a9d0f5}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.2 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.3 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.4 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.5 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.6 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.7 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.8 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.9 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+/* linkBox2.10 color*/
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+#{background:#}#:hover{background:#}
+
