@@ -1,0 +1,84 @@
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+
+
+
+
+<div class="calculator">
+  <form name="formCalculator">
+    <input type="text" name="output" class="" value="">
+    <input type="button" class="clear" value="C" onclick="document.formCalculator.output.value=''">
+    <input type="buttaon" class="operator" value="/" onclick="document.formCalculator.output.value+='/'">
+    <input type="button" class="numPad" value="1" onclick="document.formCalculator.output.value+='1'">
+    <input type="button" class="numPad" value="2" onclick="document.formCalculator.output.value+='2'">
+    <input type="button" class="numPad" value="3" onclick="document.formCalculator.output.value+='3'">
+    <input type="button" class="operator" value="*" onclick="document.formCalculator.output.value+='*'">
+    <input type="button" class="numPad" value="4" onclick="document.formCalculator.output.value+='4'">
+    <input type="button" class="numPad" value="5" onclick="document.formCalculator.output.value+='5'">
+    <input type="button" class="numPad" value="6" onclick="document.formCalculator.output.value+='6'">
+    <input type="button" class="operator" value="+" onclick="document.formCalculator.output.value+='+'">
+    <input type="button" class="numPad" value="7" onclick="document.formCalculator.output.value+='7'">
+    <input type="button" class="numPad" value="8" onclick="document.formCalculator.output.value+='8'">
+    <input type="button" class="numPad" value="9" onclick="document.formCalculator.output.value+='9'">
+    <input type="button" class="operator" value="-" onclick="document.formCalculator.output.value+='-'">
+    <input type="button" class="dot" value="." onclick="document.formCalculator.output.value+=''">
+    <input type="button" class="numPad" value="0" onclick="document.formCalculator.output.value+='0'">
+    <input type="button" class="operatorResult" value="=" onclick="document.formCalculator.output.value=eval(document.formCalculator.output.value)">
+  </form>
+</div>
+
+
+
+
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+
+
+div.calculator{
+  width: 287px;
+  border: 1px solid #333;
+  background: #ccc;
+  padding: 5px;
+}
+
+div.calculator form{
+  display: grid;
+  grid-template-columns: repeat(4,65px);
+  grid-auto-rows: 63px;
+  grid-gap: 5px;
+}
+
+div.calculator form input{  
+  font-size: 35px;
+  boarder: 2px solid #333;
+  cursor: pointer;
+  text-align: center;
+}
+div.calculator form input:hover{box-shadow: 1px 1px 2px #333;}
+
+div.calculator form input[type="text"]{
+  grid-column: span 4;
+  text-align: right;
+  padding: 10px;
+}
+div.calculator form input.clear{
+  grid-column: span 3;
+  background: #ed4848;
+}
+div.calculator form input.operator{  
+  background: orange;
+}
+div.calculator form input.dot{
+  background: green;
+}
+div.calculator form input.operatorResult{
+  grid-column: span 2;
+  background: orange;
+}
