@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.bigbox{
+  display: flex;
+  margin: 0px;
+}
+
+div.text{  
+  width: 30px;
+  height: 30px;
+  font: 20px bold;
+  margin: 1px;
+  padding: 0px;
+
+  text-align: center;
+  vertical-align: top;  
+  align-items: center;
+  left: 4px;
+  top: 3px;
+  border: 4px solid black;
+  border-radius: 10px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.column{ 
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  left: -0px;
+  top: 4px;
+}
+
+div.box {  
+  width: 30px;
+  height: 30px;
+  border: 4px solid black;
+  border-radius: 10px;
+  display: flex;
+  	align-items: flex-end;
+    cursor: pointer;
+  margin: 1px;
+    
+  }
+  
+
+.filling {
+  width: 30px;
+  height: 0px;
+  background: blue;
+  transition: height 1s;
+  border: 1px solid blue;
+  border-radius: 5px;
+animation: turn 2s infinite linear;
+
+}
+
+
+@keyframes turn {
+  from {
+  width: 30px;
+  height: 0px;
+  background: lightblue;
+  transition: height 1s;
+  border: 1px solid blue;}
+  to {  height: 30px;}
+}
+
+
+
+</style>
+</head>
+
+
+<body>
+
+
+
+<h1>The transition Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+
+
+<div class='bigbox bigbox0'>
+  <div class='text'> <div class='column'> 0 </div></div>
+  <div class='text'>	<div class='column'>1</div></div>
+  <div class='text'>	<div class='column'>2</div></div>
+  <div class='text'>	<div class='column'>3</div></div>
+  <div class='text'>	<div class='column'>4</div></div>
+  <div class='text'>	<div class='column'>5</div></div>
+  <div class='text'>	<div class='column'>6</div></div>
+  <div class='text'>	<div class='column'>7</div></div>
+  <div class='text'>	<div class='column'>8</div></div>
+  <div class='text'>	<div class='column'>9</div></div>
+  <div class='text'>	<div class='column'>10</div></div>
+</div>
+
+
+<div class='bigbox bigbox1'>
+  
+  
+  <div class='text'> <div class=''> 1 </div></div>
+  
+  <div class='box'><div class='aa' style="z-index: 1;"></div>	<div class='filling'></div></div>  
+  
+  <div class='box'>	<div class='filling'>1</div></div>
+  <div class='box'>	<div class='filling'>1</div></div>
+  <div class='box'>	<div class='filling'>1</div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+</div>
+
+<div class='bigbox bigbox2'>
+  <div class='text'> <div class=''>2</div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+</div>
+
+<div class='bigbox bigbox3'>
+  <div class='text'> <div class=''>3</div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+</div>
+
+<div class='bigbox bigbox4'>
+  <div class='text'> <div class=''>4</div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+</div>
+
+<div class='bigbox bigbox5'>
+  <div class='text'> <div class=''>5</div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>
+</div>
+
+<div class='bigbox bigbox6'>
+  <div class='text'> <div class=''>6</div></div>
+  <div class='box'>	<div class='filling'></div></div>
+  <div class='box'>	<div class='filling'></div></div>  
+</div>
+
+
+</body>
+</html>
+
+
