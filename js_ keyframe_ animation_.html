@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #grad1 {
+        height: 100px;
+        width: 100px;
+        background-color: white; /* For browsers that do not support gradients */
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      @keyframes mymove1 {
+        50%  {background-image: linear-gradient(to bottom,white 50%, blue 50%);}
+        55%  {background-image: linear-gradient(to bottom,white 55%, blue 50%);}     
+        60%   {background-image: linear-gradient(to bottom,white 60%, blue 40%);}
+        65%   {background-image: linear-gradient(to bottom,white 65%, blue 40%);}     
+        70%   {background-image: linear-gradient(to bottom,white 70%, blue 30%);}
+        75%   {background-image: linear-gradient(to bottom,white 75%, blue 30%);}
+        80%   {background-image: linear-gradient(to bottom,white 80%, blue 20%);}
+        85%   {background-image: linear-gradient(to bottom,white 85%, blue 20%);}
+        90%   {background-image: linear-gradient(to bottom,white 90%, blue 10%);}
+        95%   {background-image: linear-gradient(to bottom,white 95%, blue 10%);}
+        100% {background-image: linear-gradient(to bottom,white 100%, blue 0%);}
+      }
+
+
+      @keyframes mymove2 {
+        50%  {background-image: linear-gradient(to top,blue 50%, white 50%);}
+        55%  {background-image: linear-gradient(to top,blue 55%, white 50%);}
+        60%   {background-image: linear-gradient(to top,blue 60%, white 40%);}
+        65%   {background-image: linear-gradient(to top,blue 65%, white 40%);}
+        70%   {background-image: linear-gradient(to top,blue 70%, white 30%);}
+        75%   {background-image: linear-gradient(to top,blue 75%, white 30%);}       
+        80%   {background-image: linear-gradient(to top,blue 80%, white 20%);}
+        85%   {background-image: linear-gradient(to top,blue 85%, white 20%);}       
+        90%   {background-image: linear-gradient(to top,blue 90%, white 10%);}
+        95%   {background-image: linear-gradient(to top,blue 95%, white 10%);}      
+        100% {background-image: linear-gradient(to top,blue 100%, white 0%);}
+      }
+
+      @keyframes textBlinkerAni {
+        from {color: black;}
+        to {color: Crimson;}
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <button id="grad1"> 1</button>    
+    <div id="myDIV1" onclick="myFunction1()">click for 50% to 100%</div>    
+    <div id="myDIV2" onclick="myFunction2()">click for 0% to 50% </div>    
+    <div id="myDIV3" onclick="myFunction3()">click to stop animation </div>
+    <div id="myDIV4" onclick="myFunction4()"> tow keyframes at the same time </div>   
+
+
+    <script>
+      let div1 = document.getElementById("grad1");
+      let div2 = document.getElementById("grad1");
+      let div3 = document.getElementById("grad1");
+      let div4 = document.getElementById("grad1");
+
+      function myFunction1() {  div1.style.animation = "mymove2 0.5s infinite";}
+      function myFunction2() {  div2.style.animation = "mymove1 0.5s infinite reverse";}
+      function myFunction3() {  div3.style.animationPlayState = "paused";}
+      function myFunction4() {
+        div4.style.backgroundImage = "linear-gradient(to top,blue 50%, white 50%)";
+        div4.style.animation = "mymove2 1s infinite, textBlinkerAni 0.1s infinite alternate-reverse";}
+
+    </script>
+
+
+  </body>
+</html>
+
+
