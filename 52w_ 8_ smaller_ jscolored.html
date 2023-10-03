@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+
+.weeks52 button{
+  width: 20px;
+  height: 14px;
+  padding: 0;
+  margin-right: 2px;
+  margin-bottom: 3px;  
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.weeks52 .hiddenSpace{
+  height: 2px;
+  width:  205px;
+  border-top: 2px solid orange;
+  margin-top: -2px;
+  
+}
+
+.line52week .hiddenGap{
+  margin-right: 4px;background:blue;
+}
+
+
+.line52week {
+  display: flex;
+
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<div class='flex3 weeks52'> 
+  <div class=''>
+    <div class='line52week'>
+      <button>1</button> 
+      <button>2</button> 
+      <button>3</button> 
+      <button>4</button> 
+      <button>5</button> 
+      <div class='hiddenGap'></div>
+      <button>6</button> 
+      <button>7</button> 
+      <button>8</button> 
+      <button>9</button> 
+      <button>M</button> 
+    </div><!--  w1 div end  -->
+
+
+    <div class='line52week'>
+      <button>11</button> 
+      <button>12</button> 
+      <button>13</button> 
+      <button>14</button> 
+      <button>15</button>
+      <div class='hiddenGap'></div>
+      <button>16</button> 
+      <button>17</button> 
+      <button>18</button> 
+      <button>19</button> 
+      <button>M</button> 
+    </div><!--  w2 div end  -->
+
+    <div class='hiddenSpace'></div>
+
+    <div class='line52week'>
+      <button>21</button> 
+      <button>22</button> 
+      <button>23</button> 
+      <button>24</button> 
+      <button>25</button>
+      <div class='hiddenGap'></div> 
+      <button>26</button> 
+      <button>27</button> 
+      <button>28</button> 
+      <button>29</button> 
+      <button>J</button> 
+    </div><!-- w3  div end  -->
+
+    <div class='line52week'>
+      <button>31</button> 
+      <button>32</button> 
+      <button>33</button> 
+      <button>34</button> 
+      <button>35</button> 
+      <div class='hiddenGap'></div>
+      <button>36</button> 
+      <button>37</button> 
+      <button>38</button> 
+      <button>39</button> 
+      <button>O</button> 
+    </div><!-- w4  div end  -->
+    
+    <div class='hiddenSpace'></div>
+    
+    <div class='line52week'>
+      <button>41</button> 
+      <button>42</button> 
+      <button>43</button> 
+      <button>44</button> 
+      <button>45</button> 
+      <div class='hiddenGap'></div>
+      <button>46</button> 
+      <button>47</button> 
+      <button>48</button> 
+      <button>49</button> 
+      <button>D</button> 
+    </div><!-- w5  div end  -->
+    
+    <div class='line52week'>
+      <button>51</button> 
+      <button>52</button> 
+      <button>53</button> 
+    </div><!-- w6  div end  -->
+
+  </div><!-- line52week div end   -->
+
+</div><!-- flex3 weeks52 div end  -->
+
+
+
+
+
+
+<script>
+
+
+
+currentDate = new Date();
+startDate = new Date(currentDate.getFullYear(), 0, 1);
+let days = Math.floor((currentDate - startDate) /
+    (24 * 60 * 60 * 1000)); 
+let weekNumber = Math.ceil(days / 7);
+ 
+for( i = 0 ; i < weekNumber ; i++){
+document.getElementsByClassName('flex3 weeks52')[0].getElementsByTagName('button')[i].style.background = 'DodgerBlue';
+}  
+
+for( i = weekNumber  ; i < 53 ; i++){
+document.getElementsByClassName('flex3 weeks52')[0].getElementsByTagName('button')[i].style.background = 'green';
+}  
+document.getElementsByClassName('flex3 weeks52')[0].getElementsByTagName('button')[weekNumber-1].style.background = 'darkorange';
+
+
+
+
+
+</script>
+</body>
+</html>
+
+
